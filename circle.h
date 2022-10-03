@@ -4,7 +4,13 @@ typedef struct point {
 	int y;
 } point;
 
-/*add your definition of circle here. You need top call it "circle"*/
+// 6.a
+typedef struct cirle {
+  // Assign the struct "point" to the pointer p
+  int r;
+  struct point p;
+
+} circle;
 
 void fiveCircles(circle c[]);
 int circleIsValid(const circle* c);
